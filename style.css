@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqGWjUkCTksQ_pSqtmbgoMX7uJiS_7ATZ-Mg&usqp=CAU);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    /* background:red; */
+    /* height: 100vh; */
+}
+.current{
+    padding-top: 2vh;
+    font-size: 1.5em ;
+    /* height: 30vh; */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.tempM{
+    display: flex;
+}
+.temp{
+    font-size: 64px;
+}
+#city{
+    background-color: transparent;
+    font-size:1.1em ;
+
+}
+.days{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.day{
+    border-radius: 30px;
+    width:80%;
+    display:flex;
+    color:white;
+    font-size: 1.5em;
+    align-items: center;
+    justify-content:center;
+    margin-top:2vh;
+    border-bottom: 1px solid white;
+}
+.hours{
+    display: flex;
+    padding:left 5%;
+    overflow: scroll;  /*это для скролла*/
+    margin-top:40px;
+}
+.hour{
+    text-align:center;
+}
